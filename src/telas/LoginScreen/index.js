@@ -6,9 +6,7 @@ import { Image,
         TouchableOpacity,
 } from 'react-native';
 import styles from './styles';
-import { createStackNavigator } from '@react-navigation/stack';
 
-const Stack = createStackNavigator();
 
 export default function Login({navigation}) {
   return (
@@ -32,10 +30,3 @@ export default function Login({navigation}) {
   );
 }
 
-function HumorTabStack() {
-  return (
-    <HumorStack.Navigatior>
-      <HumorStack.Screen name="Home Screen" component={HomeScreen}/>
-    </HumorStack.Navigatior>
-  );
-}

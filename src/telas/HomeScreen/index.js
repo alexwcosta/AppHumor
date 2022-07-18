@@ -7,11 +7,10 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Image
         style={styles.emote}
-        source={require('../../assets/neutral.png')}
+        source={require('../../../assets/neutral.png')}
       />
       <Text style={styles.text}>
-        Você ainda não tem nenhum registro diário. Para começar, toque no ícone
-        de adicionar na tela.
+        Você ainda não tem nenhum registro diário.Para começar, toque no ícone de adicionar na tela.
       </Text>
     </View>
   );
